@@ -11,6 +11,7 @@ January 2013
 
 GrapeJuiceSoda changes
 
-Modified some of the source code so it will compile on Linux (Linux 5.15.2-arch1-1) (Arch)Added run shell script so you can compile source code easily
+Modified some of the source code so it will compile on Linux (Linux 5.15.2-arch1-1) (Arch)
+Added run shell script so you can compile source code easily
 You might need to modify the run script
 
