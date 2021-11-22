@@ -1,14 +1,10 @@
 #!/bin/bash
 
-apue_include_path='/home/'$USER'.../apue3/include/'
-apue_lib_path='/home/'$USER'/.../apue3/lib/'
-
+apue_include_path='/home/'$USER'/Documents/programming/apue.3e/include/'
+apue_lib_path='/home/'$USER'/Documents/programming/apue.3e/lib/'
 output_name=$(echo $1 | awk -F . '{print $1}')
-echo $apue_include_path
-echo $apue_lib_path
-echo $output_name
 
-#gcc -o "$output_name" $1 -I "$apue_include_path" -L "$apue_lib_path" -lapue
+gcc -o "$output_name" $1 -I "$apue_include_path" -L "$apue_lib_path" -lapue
 
 # -I tells gcc which directory to look for the include file 
 # -L tells it the location of the library directory
